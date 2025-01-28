@@ -1,3 +1,5 @@
+//continious rotation servo test
+
 #include <Servo.h>
 Servo servo;
 
