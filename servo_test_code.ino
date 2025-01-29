@@ -14,6 +14,6 @@ void loop() {
   servo.write(0);   // Full-speed rotation in one direction
   delay(2000);
 
-  servo.write(180); // Full-speed rotation in the other direction
+  servo.write(180); /// Full-speed rotation in the other direction
   delay(2000);
 }
