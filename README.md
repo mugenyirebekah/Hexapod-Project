@@ -1,1 +1,1 @@
-Project: hexapod.
+Project: Hexapod.
