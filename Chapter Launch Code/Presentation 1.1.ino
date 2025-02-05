@@ -1,14 +1,3 @@
-/*
-
-Inital State: Place the hexapod as close to the 'neutral' position as possible.
-
-The hexapod corrects to the proper standing position.
-
-Wave sequence with leg 2
-
-Legs 1,2,4,5, and 6 lift and come down.
-*/
-
 //NEW PRESENTATION CODE
 
 #include <Servo.h>
@@ -83,9 +72,15 @@ void setup(){
   delay(500); 
   femurServos[1].write(140);
   delay(1000);
-  tibiaServos[1].write(70);
-  delay(1000);
+
+  tibiaServos[1].write(60);
+  delay(500);
   tibiaServos[1].write(110);
+  delay(500);
+  tibiaServos[1].write(60);
+  delay(500);
+  tibiaServos[1].write(110);
+
   delay(1000);
   femurServos[1].write(80);
   delay(1000); 
@@ -111,5 +106,6 @@ void loop(){
       delay(2000);
     }
   }
- */
+  */
+ 
 }
